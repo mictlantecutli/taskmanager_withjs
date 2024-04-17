@@ -9,15 +9,51 @@
 
   <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/master.css">
 </head>
 
 <body>
+  <header class="header">
+    <div class="container">
+      <div class="navbar">
+        <a href="/" class="logo">
+          <img src="/images/logo.svg" alt="notNotion">
+          <span>notNotion</span>
+        </a>
+        <nav>
+          <ul class="nav-items">
+            <li>
+              <a href="/quiz">Quiz</a>
+            </li>
+            <li class="active">
+              <a href="/todoList">Todo List</a>
+            </li>
+
+            <li>
+              <a href="/kanban_app">Progress Board</a>
+            </li>
+            <li>
+              <a href="/budgetTracker">Budget Manager</a>
+            </li>
+
+            <span class="newsletter">Join Newsletter</span>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </div>
+  </header>
   <main>
     <div class="wrap">
+      <!--
       <section class="heading">
         <p class="title">notNotion</p>
         <p class="subtitle">Manage And Search Your Pending Task In Clicks!</p>
-      </section>
+      </section>-->
       <section class="task-manager">
         <div class="search-box">
           <form class="search">
@@ -46,10 +82,40 @@
     </div>
 
   </main>
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="brand-name">
+          <span>&copy; notNotion by Moisés Parra</span>
+        </div>
+        <div class="social-icons">
+          <i class="bi bi-twitter social"></i>
+          <i class="bi bi-linkedin social"></i>
+          <i class="bi bi-youtube social"></i>
+          <i class="bi bi-instagram social"></i>
+        </div>
+      </div>
+    </div>
+    <section class="modal">
+      <div class="newsletter-modal">
+        <p>Join Newsletter Now!</p>
+        <form>
+          <input type="text" name="name" placeholder="Name" autocomplete="off">
+          <input type="email" name="email" placeholder="Email" autocomplete="off">
+          <input type="submit" value="Submit">
+        </form>
+        <i class="bi bi-x-lg close"></i>
+      </div>
+    </section>
+  </footer>
 
-  <script src="./index.js">
+  <script src="/main.js"></script>
+  <script src="./index.js"></script>
 
-  </script>
+
+
+
+
 
 </body>
 

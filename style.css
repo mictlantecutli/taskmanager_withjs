@@ -21,8 +21,11 @@
 
 .wrap {
   background-color: #0d479a;
-  min-height: 100vh;
-  padding: 20px
+  width: 1200px;
+  border-radius: 5px;
+  min-height: 80vh;
+  padding: 35px;
+  margin: 30px auto;
 }
 
 .heading {
